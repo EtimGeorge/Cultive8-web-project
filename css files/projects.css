@@ -44,7 +44,6 @@ body {
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   font-weight: 700;
-  /* text-fill-color: transparent; */
 }
 
 .menu-option{
@@ -52,8 +51,6 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
- 
-  
 }
 
 .nav-links{
@@ -67,7 +64,6 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  /* color: #ffffff; */
   font-size: 20px;
   color: black;
   font-weight: 600;
@@ -110,11 +106,12 @@ body {
 /* ==========PROJECT BANNER SECTION============ */
 
 .project-banner{
-  background-image: url(../asset-folder/project-page-banner.jpeg);
+  max-width: 100%;
+  background-image: url(../asset-folder/project-page-banner.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
+  
 }
 
 .project-banner-content{
@@ -126,18 +123,9 @@ body {
   padding: 100px;
   color:white;
   gap:20px;
-  
-
 }
 
-.project-banner-content p{
-  font-family: Epilogue;
-font-size: 24px;
-font-weight: 500;
-line-height: 30px;
-text-align: center;
 
-}
 
 .project-banner-content h2{
  
@@ -146,6 +134,33 @@ text-align: center;
   font-weight: 700;
   line-height: 62.75px;
   text-align: left;
+}
+
+.view-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+
+  
+}
+
+.view-btn a{
+  text-decoration: none;
+  color: #2c2b2b;
+  font-weight: 600;
+}
+
+.view-btn a:hover{
+  color: #fff;
+}
+
+
+
+.view-btn:hover{
+  background-color:#9c9999; ;
+  color: #fff;
+  border-radius: 3px; 
 }
 
 /* ==========RECENT PROJECT SECTION STYLES============ */
@@ -205,14 +220,11 @@ text-align: left;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 38px;
-  /* width:1386px;
-height:350px; */
-/* top: 847px;
-left: 38px;
-gap: 10px;
-opacity: 0px; */
+  gap: 20px;
+  
 
 }
+
 
 .recent-video-tiles .tile1,
 .recent-video-tiles .tile2,
@@ -221,13 +233,21 @@ opacity: 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .tile1{
-  width: 280px;
+  width: 200px;
   height: 300px;
 
   background-image: url(../asset-folder/recent-vid1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .tile2{
@@ -235,6 +255,10 @@ opacity: 0px; */
   height: 300px;
 
   background-image: url(../asset-folder/recent-vid2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
 }
 
 .tile3{
@@ -243,6 +267,10 @@ opacity: 0px; */
 gap: 0px;
 opacity: 0px;
   background-image: url(../asset-folder/recent-vid3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .tile4{
@@ -251,6 +279,10 @@ opacity: 0px;
 gap: 0px;
 opacity: 0px;
   background-image: url(../asset-folder/recent-vid4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
 } 
 
 
@@ -262,6 +294,7 @@ opacity: 0px;
   align-items: center;
   padding: 38px;
   margin-top: 70px;
+  gap: 10px;
 
 }
 
@@ -300,7 +333,9 @@ text-align: left;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  margin: 38px;
- padding-bottom: 90px;
+ padding-bottom: 70px;
+ gap: 20px;
+ 
 
 }
 
@@ -316,31 +351,41 @@ text-align: left;
 .tile5{
  width: 280px;
  height: 300px;
-
  background-image: url(../asset-folder/featured-vid1.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
 }
 
 .tile6{
  width: 280px;
  height: 300px;
-
  background-image: url(../asset-folder/featured-vid2.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
 }
 
 .tile7{
  width: 280px;
  height: 300px;
-gap: 0px;
-opacity: 0px;
  background-image: url(../asset-folder/featured-vid3.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
 }
 
 .tile8{
  width: 280px;
  height: 300px;
-gap: 0px;
-opacity: 0px;
  background-image: url(../asset-folder/featured-vid4.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
 } 
 
 /*  =========PROJECT FOOTER SECTION STYLES========== */
@@ -351,7 +396,8 @@ opacity: 0px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 40px;
+  width: 100%;
+  padding: 38px 0px 38px 0px;
 }
 
 .footer-logo{
@@ -382,7 +428,7 @@ li{
   font-family: Comfortaa;
   font-size: 96px;
   font-weight: 700;
-  line-height: 107.04px;
+  line-height: 70px;
   letter-spacing: -0.01em;
   text-align: left;
 }

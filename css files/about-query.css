@@ -1,0 +1,559 @@
+/* Base styles (for screens larger than 1024px) */
+/* Your existing CSS code here */
+
+/* Breakpoint 3 (Small Desktops): 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px)  {
+
+  /* =============HEADER AND NAVIGATION SECTION=========== */
+
+  .nav-bar {
+    padding: 30px 50px;
+  }
+  .logo-header {
+    font-size: 40px;
+  }
+  .nav-options{
+    display: none;
+  }
+  .nav-links {
+    gap: 15px;
+  }
+  .nav-links a {
+    font-size: 17px;
+    text-wrap: nowrap;
+  }
+  .btn-sign-in {
+    width: 90px;
+    padding: 6px;
+  }
+
+  /* ==========ABOUT US BANNER SECTION============ */
+
+  .aboutUs-banner-content {
+    
+    text-align: center;
+    padding-top: 40vh;
+  }
+
+  .aboutUs-banner-content h2 {
+    font-size: 56px;
+    line-height: 64px;
+    padding-top: 50px;
+  }
+  .about-herro {
+    padding: 30px 50px;
+    gap: 40px;
+    flex-direction: column;
+    
+  }
+
+  .herro-images-1 {
+    width: 100%;
+    height: auto;
+    padding-left: 90px;
+  }
+
+  .herro-images-2 {
+    right: 400px;
+    bottom: -690px;
+    width: 350px;
+    height: auto;
+  }
+
+  .herro-text {
+    width: 100%;
+  }
+
+  .herro-text h2 {
+    font-size: 28px;
+    line-height: 34px;
+    width: 100%;
+  }
+
+  /* =============TESTIMONIAL SECTION STYLES============ */
+  
+  .testimonial-section{
+    padding-bottom: 60px;
+    
+  }
+
+  .testimonial-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: start;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    width:50%;
+  height: 100%;
+  top: 0px;
+  left: 0px; 
+  }
+  
+  .testimonial-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    width: 50%;
+    height:100%;
+    top: 0px;
+    left: 140px;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+  }
+  
+  
+  .testimonial-content-2 .who, h3{
+    text-align: end;
+  }
+
+  /* ===========MEET THE TEAM SECTION STYLES============ */
+
+  .team-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  
+  .featured-video-tiles img{
+    background-size: cover;
+  }
+
+  /* ========= FOOTER SECTION========== */
+
+  .projects-footer {
+    padding: 35px;
+  }
+  .footer-logo .img-box-2 img {
+    width: 80px;
+    height: 80px;
+  }
+  .logo-text h1 {
+    font-size: 65px;
+    line-height: 50px;
+  }
+  .logo-text p {
+    font-size: 20px;
+  }
+  .quick-links li,
+  .Our-Services li,
+  .call-icon, .message, .address {
+    padding: 5px;
+    gap: 0;
+    text-wrap: nowrap;
+    font-size: 10px;
+  }
+}
+
+/* Breakpoint 2 (Tablets): 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px)  {
+
+   /* =============HEADER AND NAVIGATION SECTION=========== */
+
+  .nav-bar {
+    padding: 25px 40px;
+  }
+  .logo-header {
+    font-size: 36px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links a {
+    font-size: 18px;
+  }
+  .btn-sign-in {
+    width: 85px;
+    padding: 5px;
+  }
+
+   /* ==========ABOUT US BANNER SECTION============ */
+
+  .aboutUs-banner-content {
+    
+    text-align: center;
+    padding-top: 40vh;
+  }
+
+  .aboutUs-banner-content h2 {
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 50px;
+  }
+
+  .about-herro {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .herro-images{
+    display: flex;
+    justify-content: center;
+  }
+
+  .herro-images-2 {
+     right: 440px;
+     bottom: -490px;
+     width: 270px;
+     height: auto;
+  }
+
+  .herro-text {
+    width: 100%;
+  }
+
+  /* ============AFORDABLE SECTION STYLES============ */
+
+  .afordable-banner-content h2 {
+    font-size: 40px;
+    line-height: 48px;
+    width: 90%;
+  }
+
+  /* =============MAILESTONE SECTION STYLES======== */
+
+  .milestones-content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+   /* =============TESTIMONIAL SECTION STYLES============ */
+
+  .testimonial-section{
+    padding-bottom: 60px;
+    
+  }
+
+  .testimonial-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: start;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    width:50%;
+    height: 100%;
+    top: 0px;
+    left: 0px; 
+  }
+  
+  .testimonial-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    width: 50%;
+    height:100%;
+    top: 0px;
+    left: 290px;
+    margin-top: 50px;
+  
+  }
+  
+  
+  .testimonial-content-2 .who, h3{
+    text-align: end;
+  }
+
+  /* ===========MEET THE TEAM SECTION STYLES============ */
+
+  .team-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /*  =========FOOTER SECTION STYLES========== */
+
+  .projects-footer {
+    padding: 30px;
+    gap: 5px;
+  }
+
+  .footer-logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0;
+  }
+  .footer-logo .img-box-2 img {
+    width: 55px;
+    height: 55px;
+    
+  }
+  .logo-text h1 {
+    font-size: 50px;
+    line-height: 30px;
+  }
+  .logo-text p {
+    font-size: 10px;
+  }
+  .quick-links li,
+  .Our-Services li,
+  .call-icon, .message, .address {
+    padding: 8px;
+    font-size: 8px;
+    text-wrap: nowrap;
+  }
+}
+
+/* Breakpoint 1 (Small Screens): 320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* =============HEADER AND NAVIGATION SECTION=========== */
+  
+  .nav-bar {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-header {
+    font-size: 30px;
+  }
+  .nav-links {
+   display: none;
+  }
+ 
+  .btn-sign-in {
+    width: 80px;
+    padding: 4px;
+  }
+  
+  .logo-header {
+    font-size: 24px;
+  }
+
+  .btn-sign-in {
+    width: 100%;
+  }
+
+  /* ==========ABOUT US BANNER SECTION============ */
+
+  .aboutUs-banner-content {
+    
+    text-align: center;
+    padding-top: 40vh;
+  }
+
+  .aboutUs-banner-content h2 {
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 50px;
+  }
+
+  /* =========ABOUT HERRO SECTION STYLES============ */
+
+  .about-herro{
+    width: 100%;
+    margin:0px auto;
+    height: 100%;
+    flex-direction: column;
+    padding: 40px ;
+  
+  }
+
+  .herro-images-1{
+    padding: 0 40px;
+  }
+
+  .herro-images{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .herro-images-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .herro-text{
+    width: 100%;
+    margin:0px auto;
+    height: 100%;
+    flex-direction: column;
+    
+  }
+
+
+  .herro-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .slogan{
+
+  line-height: 25px;
+  }
+
+  /* ============AFORDABLE SECTION STYLES============ */
+
+  .afordable-banner-content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  /* =============MAILESTONE SECTION STYLES======== */
+
+  .milestones-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* =============TESTIMONIAL SECTION STYLES============ */
+
+  .testimonial-section{
+      padding-bottom: 40px;
+   
+  }
+    
+  .testimonial-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: start;
+    background-color: #fff;
+    gap: 20px;
+    width:80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom:30px ;
+    
+  }
+    
+    .testimonial-content-2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: start;
+      background-color: #fff;
+      padding: 20px;
+      gap: 20px;
+      width: 80%;
+      height:100%;
+      position: static;
+      margin-top: 50px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    
+    .testimonial-content p, .testimonial-content-2 p{
+      color: #878680;
+    }
+    
+    hr{
+      width: 50px;
+      border-style: dashed;
+      border: 1px solid #EEC044;
+      line-height-step: 100px;
+    }
+    
+    .testimonial-content-2 .who, h3{
+      text-align: end;
+    }
+    
+    .testimonial-content img{
+      border-radius: 10px;
+    }
+    
+    .testimonial-content-2 img{
+      border-radius: 10px;
+    }
+
+  
+
+  .meetTeam-header {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px 0;
+  }
+
+  .team-gallery {
+    grid-template-columns:repeat(2, 1fr);
+    
+  }
+
+    /* Reset the last-child centering */
+    .team-gallery :last-child:nth-child(5n - 4) {
+      grid-column-end: auto;
+    }
+    
+    /*  =========FOOTER SECTION STYLES========== */
+
+  .logo-text h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .logo-text p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .projects-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em; 
+  }
+  .footer-logo .img-box-2 img {
+    width: 80px;
+    height: 100px;
+    gap: 0;
+    padding: 0;
+  }
+
+  .logo-text h1 {
+    font-size: 72px;
+    line-height: 60px;
+   
+  }
+  .logo-text p {
+    font-size: 20px;
+    
+  }
+
+  .quick-links,
+  .Our-Services {
+    margin-bottom: 30px; 
+  }
+
+  .quick-links{
+    padding-top: 30px;
+  }
+  .quick-links li,
+  .Our-Services li,
+  .call-icon, .message, .address {
+    padding: 10px;
+  }
+
+  .quick-links h3,
+  .Our-Services h3{
+    font-size: 25px;
+  }
+
+  .contact-header a{
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}

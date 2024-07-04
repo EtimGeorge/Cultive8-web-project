@@ -9,7 +9,7 @@ body {
   font-family: 'inter', Epilogue, Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif ;
   font-size: auto;
 }
- /* =========HEADER SECTION STYLES========== */
+/* =============HEADER AND NAVIGATION SECTION=========== */
 
 .header-container{
   box-shadow: 0px 4px 4px 0px #037b2781;
@@ -138,7 +138,6 @@ body {
 .aboutUs-banner-content {
   position: relative;
   z-index: 1;
-  /* Add your text styles here */
   color: white;
   text-align: center;
   padding-top: 20vh;
@@ -148,7 +147,6 @@ body {
   font-size: 50px;
   font-weight: 700;
   line-height: 62.75px;
-  /* text-align: left; */
   padding-top: 100px;
 }
 
@@ -168,7 +166,7 @@ body {
 
 .herro-images-2{
   position: absolute;
-  right: 930px;
+  right: 990px;
   bottom: -640px;
   width: 220px;
   height: 321px;
@@ -184,23 +182,12 @@ body {
 
 }
 
-.coveredByYourGrace{
-font-family: Covered By Your Grace;
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-text-align: left;
-color: #EEC044;
-}
-
 .herro-text h2{
-  
   font-family: Inter;
   font-size: 36px;
   font-weight: 400;
   line-height: 43.57px;
   text-align: left;
-  
   width: 485.48px;
   height: 115.2px;
   top: -0.31px;
@@ -216,8 +203,7 @@ color: #878680;
 
 }
 
-.about-main{
-
+.about-main {
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
@@ -238,7 +224,7 @@ text-align: left;
 
 }
 
-.icon-flex{
+.nike-icon-flex{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,8 +259,7 @@ margin-top: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 80vh;
-  margin-top: 70px;
+  height: 60vh;
 }
 
 .afordable-banner::before {
@@ -301,15 +286,13 @@ margin-top: 20px;
 }
 
 .afordable-banner-content h2{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
   line-height: 72px;
   text-align: center;
   align-items: center;
-  width: 778px;
-  height: 144px;
   margin: 0 auto;
-  padding-top: 40px;
+  
 }
 
 /* =============MAILESTONE SECTION STYLES======== */
@@ -354,19 +337,19 @@ background-color: #fcfaf0;
 
 .testimonial-header p{
   font-family: Covered By Your Grace;
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
-color: #EEC044;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #EEC044;
 
 }
 
 .testimonial-header h3{
-font-size: 48px;
-font-weight: 800;
-line-height: 57.6px;
-text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+  text-align: center;
 
 }
 
@@ -379,11 +362,11 @@ text-align: center;
   padding: 10px;
   gap: 20px;
   width: 464px;
-height: 243px;
-top: 232px;
-left: 214px;
-border-radius: 10px ;
-margin: 20px 90px;
+  height: 243px;
+  top: 232px;
+  left: 214px;
+  border-radius: 10px ;
+  margin: 20px 90px;
 
 }
 
@@ -399,11 +382,11 @@ margin: 20px 90px;
   padding: 10px;
   gap: 40px;
   width: 464px;
-height: 243px;
-position: relative;
-top: -20px;
-left: 600px;
-border-radius: 20px ;
+  height: 243px;
+  position: relative;
+  top: -20px;
+  left: 600px;
+  border-radius: 20px ;
 }
 
 .testimonial-content p{
@@ -483,7 +466,7 @@ hr{
 }
 
 
-/*  =========PROJECT FOOTER SECTION STYLES========== */
+/*  =========FOOTER SECTION STYLES========== */
 
 .projects-footer{
   background-color: #053205;
