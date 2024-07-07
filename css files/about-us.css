@@ -468,13 +468,13 @@ hr{
 
 /*  =========FOOTER SECTION STYLES========== */
 
-.projects-footer{
+.footer{
   background-color: #053205;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
-  padding: 40px;
+  
 }
 
 .footer-logo{
@@ -504,7 +504,7 @@ li{
   color: #fff;
   font-family: Comfortaa;
   font-size: 96px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 107.04px;
   letter-spacing: -0.01em;
   text-align: left;
@@ -521,17 +521,19 @@ li{
 }
 
 .footer-logo .img-box-2 img{
-  width: 86.99px;
-  height: 91.5px;
+  width: 86px;
+  height: 80px;
 }
 
 .quick-links li{
  padding: 15px;
+ font-size: 12px;
  
 }
 
 .Our-Services li{
   padding: 15px;
+  font-size: 12px
 }
 
 .quick-links li h3{
@@ -542,21 +544,30 @@ li{
   text-align: start;
 }
 
+.Contact{
+  margin-top: 50px;
+  align-items:start;
+  
+}
+
  .contact-header a {
   display: flex;
   justify-content: left;
   text-align: start;
+  font-size: 15px;
+  padding-bottom: 20px;
 }
 
 .call-icon, .message, .address{
-  gap:10px;
-  padding: 15px;
+
+ margin-bottom:15px;
   border-bottom:2px solid #fff;
 }
 
 .call-icon img, .message img, .address img{
    padding-right: 10px;
    color: #fff;
+   
 }
 
 .social-icons{

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="../css files/consultation-form.css" />
+
+    
+  <!-- =============FAVICON LINK=============== -->
+
+  <link rel="icon" type="image/svg+xml" href="../asset-folder/favicon.svg">
+  <link rel="icon" type="image/png" href="../asset-folder/favicon.png">
+  
+    <!-- ====================FONT & ICON RESOURCE LINKS================= -->
+  
+  
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+    <title>Online Consultation Form</title>
+
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="logo-container">
+
+        <div class="logo-img">
+          <img src="../asset-folder/Group.png" alt="Cultiv8 Logo">
+        </div>
+
+        <div class="text-tagline">
+          <div class="logo-text">Cultiv8</div>
+          <div class="logo-tagline">For Farmers By Farmers</div>
+        </div>
+      </div>
+  
+          
+        <h1>Online Consultation Form</h1>
+      <form id="consultationForm">
+        <div class="form-group001">
+          <label class="full-name" for="fullName">Full Name *</label>
+
+          <div class="name-types">
+
+            <div class="prefix">
+
+              <input type="text" id="prefix" name="prefix">
+
+              <label class="name-fild" for="fullName">Prefix</label>
+
+            </div>
+
+            <div class="first-name">
+              <input type="text" id="firstName" name="firstName" required>
+
+              <label class="name-fild"  for="fullName">First Name </label>
+                      
+            </div>
+
+            <div class="middle-name">
+
+              <input type="text" id="middleName" name="middleName">
+              <label class="name-fild"  for="fullName">Middle Name </label>
+
+            </div>
+
+            <div class="last-name">
+
+              <input type="text" id="lastName" name="lastName" required>
+              <label class="name-fild"  for="fullName">Last Name </label>
+                        
+            </div>
+
+          </div>
+          
+        </div>       
+        <div class="check-box-section">
+
+          <div class="form-group002">
+            <div clsaa="header">Type of Agriculture Practice(s) *</div>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="agriType" value="Fish farming"> Fish farming</label>
+              <label><input type="checkbox" name="agriType" value="Crop Production"> Crop Production</label>
+              <label><input type="checkbox" name="agriType" value="Animal Husbandry"> Animal Husbandry</label>
+
+              <div class="hr"><label><input type="checkbox" name="agriType" value="Other"> Other  </label>
+                <input class="line" type="text">
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group003">
+            <label for="enterprise">What is the name of your enterprise?</label>
+            <input type="text" id="enterprise" name="enterprise">
+          </div>
+
+        </div>
+
+                <div class="form-group004">
+                    <label for="location">What's the location of the enterprise (State/Local Government) </label>
+                    <input class="location" type="text" id="location" name="location">
+                </div>
+                <div class="form-group005">
+                    <label for="email">Email address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group006">
+                    <label>Which role best describes you? *</label>
+                    <select name="role" required>
+                        <option value="">Select a role</option>
+                        <option value="Owner">Owner</option>
+                        <option value="Executive Team">Executive Team</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Employee">Employee</option>
+                        <option value="Student/Intern">Student/Intern</option>
+                    </select>
+                </div>
+                <div class="form-group007">
+                    <label for="problem">What problem(s) do you want to solve? *</label>
+                    <textarea id="problem" name="problem" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <script src="../javascript/main.js">
+     
+
+    </script>
+
+
+  </body>
+</html>

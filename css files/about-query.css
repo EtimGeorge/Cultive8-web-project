@@ -1,6 +1,3 @@
-/* Base styles (for screens larger than 1024px) */
-/* Your existing CSS code here */
-
 /* Breakpoint 3 (Small Desktops): 769px - 1024px */
 @media (min-width: 769px) and (max-width: 1024px)  {
 
@@ -199,6 +196,7 @@
   }
 
   .herro-images-2 {
+    display: none;
      right: 440px;
      bottom: -490px;
      width: 270px;
@@ -273,7 +271,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /*  =========FOOTER SECTION STYLES========== */
+  
 
   .projects-footer {
     padding: 30px;
@@ -495,65 +493,68 @@
       grid-column-end: auto;
     }
     
-    /*  =========FOOTER SECTION STYLES========== */
+   /*  =========FOOTER SECTION STYLES========== */
 
-  .logo-text h1 {
-    font-size: 60px;
-    line-height: 70px;
-  }
+  
 
-  .logo-text p {
-    font-size: 20px;
-    line-height: 24px;
-  }
+ .footer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
 
-  .projects-footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 0.5em; 
-  }
-  .footer-logo .img-box-2 img {
-    width: 80px;
-    height: 100px;
-    gap: 0;
-    padding: 0;
-  }
+.footer > div {
+  width: 100%;
+  margin-bottom: 30px;
+}
 
-  .logo-text h1 {
-    font-size: 72px;
-    line-height: 60px;
-   
-  }
-  .logo-text p {
-    font-size: 20px;
-    
-  }
+.footer-logo {
+  flex-direction: column;
+  align-items: center;
+}
 
-  .quick-links,
-  .Our-Services {
-    margin-bottom: 30px; 
-  }
+.logo-text h1 {
+  font-size: 48px;
+  line-height: 54px;
+  
+}
 
-  .quick-links{
-    padding-top: 30px;
-  }
-  .quick-links li,
-  .Our-Services li,
-  .call-icon, .message, .address {
-    padding: 10px;
-  }
+.logo-text p {
+  font-size: 18px;
+  line-height: 21px;
+}
 
-  .quick-links h3,
-  .Our-Services h3{
-    font-size: 25px;
-  }
+.footer-logo .img-box-2 img {
+  width: 60px;
+  height: 56px;
+}
 
-  .contact-header a{
-    font-size: 25px;
-    line-height: 60px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
+.quick-links, .Our-Services, .Contact {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quick-links ul li h3{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Our-Services ul li h3{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-header a{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+
+.social-icons {
+  justify-content: center;
+} 
 }

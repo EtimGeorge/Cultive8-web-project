@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', Epilogue,  Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif ;
+  font-size: auto;
+}
+/* =========BANNER SECTION STYLES========== */
+
+.banner-section{
+  background-image: url(../asset-folder/our-services-banner.png);
+ max-width: 100%;
+height: 373px;
+top: 78px;
+}
+/* ===============GET EQUIPMENT STYLE================ */
+
+.get-equipment{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+  margin: 30px auto 30px auto;
+  background-color:#E1FFE2 ;
+  column-gap: 20px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  padding: 20px;
+  gap: 40px;
+  width: 50%;
+  height:100%;
+  top: 0px;
+  left: 140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.text h1{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.09px;
+text-align: left;
+
+}
+
+.text p{
+  font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+text-align: left;
+
+}
+
+.btn a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 10px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+
+}
+
+
+ .btn{
+  width:242px;
+  height:56px;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  border-radius: 8px ;
+  opacity: 0px;
+  background-color: #1B751B;
+
+}
+
+.image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* .image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+/* ===============IMPROVED SEED SECTION STYLE================ */
+
+.improved-seed{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  margin: 50px auto 50px auto;
+  background-color:#E1FFE2 ;
+  column-gap: 20px;
+}
+
+.carrot{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+
+/* ===============FARM MANAGEMENT SECTION STYLE================ */
+
+.farm-management{
+  max-width: 100%;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 50px 80px 50px; */
+ 
+  margin: 50px 0 0 0;
+  background-color:#E1FFE2 ;
+  column-gap: 60px;
+}
+
+
+.text-last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  gap: 60px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.text-last h1{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.09px;
+text-align: left;
+margin-bottom:100px;
+
+}
+
+.text-last p{
+  font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+text-align: left;
+margin-bottom:100px;
+width: 558px;
+/* height: 310px; */
+
+
+
+
+}
+
+.image-last{
+  display: flex ;
+  flex-direction: column;
+  /* padding-left: 40px; */
+}
+
+
+.last2{
+  width: 430px;
+  height: 309px;
+  position: relative;
+  top: 28px;
+  left: -95px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+/*  =========FOOTER SECTION STYLES========== */
+
+.footer{
+  background-color: #053205;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  list-style: none;
+  color: white;
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text h1{
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 107.04px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.logo-text p{
+  font-family: Roboto Serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31.62px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+}
+
+.footer-logo .img-box-2 img{
+  width: 86px;
+  height: 80px;
+}
+
+.quick-links li{
+ padding: 15px;
+ font-size: 12px;
+ 
+}
+
+.Our-Services li{
+  padding: 15px;
+  font-size: 12px
+}
+
+.quick-links li h3{
+  text-align: start;
+}
+
+.Our-Services li h3{
+  text-align: start;
+}
+
+.Contact{
+  margin-top: 50px;
+  align-items:start;
+  
+}
+
+ .contact-header a {
+  display: flex;
+  justify-content: left;
+  text-align: start;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.call-icon, .message, .address{
+
+ margin-bottom:15px;
+  border-bottom:2px solid #fff;
+}
+
+.call-icon img, .message img, .address img{
+   padding-right: 10px;
+   color: #fff;
+   
+}
+
+.social-icons{
+  display: flex;
+  gap :30px;
+  align-items: start;
+  padding: 15px;
+}
