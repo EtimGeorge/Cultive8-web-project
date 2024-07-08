@@ -518,7 +518,7 @@
   text-align: center;
 }
 
-.card-content h2 {
+.card-content h2 a {
   width: 320px;
   height: 35px;
   font-size: 28px;
