@@ -62,52 +62,28 @@
 
 // =============003================
 
+// In main.js
+
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM fully loaded');
+    const form = document.getElementById('consultationForm');
 
-  const form = document.getElementById('consultationForm');
-  const popup = document.getElementById('popup');
-  const closePopupButton = document.getElementById('closePopup');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
 
-  console.log('Form:', form);
-  console.log('Popup:', popup);
-  console.log('Close button:', closePopupButton);
+            // Simulate an asynchronous submission
+            setTimeout(function() {
+                // Store a flag in localStorage to indicate successful submission
+                localStorage.setItem('formSubmitted', 'true');
 
-  if (form) {
-      form.addEventListener('submit', function(event) {
-          console.log('Form submitted');
-          event.preventDefault();
-
-          // Simulate an asynchronous submission
-          setTimeout(function() {
-              console.log('Showing popup');
-              if (popup) {
-                  popup.style.display = 'block';
-              } else {
-                  console.error('Popup element not found');
-              }
-
-              form.reset();
-          }, 1000);
-      });
-  } else {
-      console.error('Form element not found');
-  }
-
-  if (closePopupButton) {
-      closePopupButton.addEventListener('click', function() {
-          console.log('Close button clicked');
-          if (popup) {
-              popup.style.display = 'none';
-          } else {
-              console.error('Popup element not found');
-          }
-      });
-  } else {
-      console.error('Close button not found');
-  }
+                // Redirect to the popup page
+                window.location.href = 'popup.html'; // Adjust this path as needed
+            }, 1000);
+        });
+    } else {
+        console.error('Form element not found');
+    }
 });
-
 
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
