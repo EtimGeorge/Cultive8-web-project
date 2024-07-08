@@ -1,8 +1,72 @@
 /* Media query for screens between 481px and 768px */
 @media screen and (min-width: 360px) and (max-width: 768px) {
+
+ /* =============HEADER AND NAVIGATION SECTION=========== */
+
+ .nav-bar {
+  padding: 25px 40px;
+}
+.logo-header {
+  font-size: 36px;
+}
+.nav-links {
+  display: none;
+}
+.nav-links a {
+  font-size: 18px;
+}
+.btn-sign-in {
+  width: 85px;
+  padding: 5px;
+}
+
+/* ========= HAMBURGER MENU FOR MOBILE ============ */
+
+.hamburger-menu {
+  display: block;
+}
+
+ .hamburger-menu{
+  top: 30px;
+}
+
+/* =======MOBILE MENU=========== */
+
+.menu-option {
+  display: none;
+}
+
+
+.show-mobile-menu {
+  right: 0;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 80px;
+  width: 90%;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-left: 0;
+}
+
+
   .get-equipment, .improved-seed, .farm-management {
+    height: fit-content;
     flex-direction: column;
     padding: 20px;
+    
+  }
+
+  .image-last {
+    width: 100%;
+    height: auto;
+    column-gap: 20px;
+   
   }
 
   .text, .text-last {

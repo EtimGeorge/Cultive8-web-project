@@ -135,22 +135,58 @@
 /* Breakpoint 2: Tablets (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   /* Layout changes */
-  .nav-bar {
-    padding: 25px 40px;
-  }
-  .logo-header {
-    font-size: 36px;
-  }
-  .nav-links {
-    display: none;
-  }
-  .nav-links a {
-    font-size: 18px;
-  }
-  .btn-sign-in {
-    width: 85px;
-    padding: 5px;
-  }
+ /* =============HEADER AND NAVIGATION SECTION=========== */
+
+ .nav-bar {
+  padding: 25px 40px;
+}
+.logo-header {
+  font-size: 36px;
+}
+.nav-links {
+  display: none;
+}
+.nav-links a {
+  font-size: 18px;
+}
+.btn-sign-in {
+  width: 85px;
+  padding: 5px;
+}
+
+/* ========= HAMBURGER MENU FOR MOBILE ============ */
+
+.hamburger-menu {
+  display: block;
+}
+
+ .hamburger-menu{
+  top: 30px;
+}
+
+/* =======MOBILE MENU=========== */
+
+.menu-option {
+  display: none;
+}
+
+
+.show-mobile-menu {
+  right: 0;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 80px;
+  width: 90%;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-left: 0;
+}
   .project-banner-content {
     padding: 80px;
   }
