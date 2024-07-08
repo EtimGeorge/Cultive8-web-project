@@ -274,7 +274,7 @@
 .hero .hero-container {
   position: relative;
   height: 657px;
-  background: url(/index-files/images/hero.png);
+  background: url(//index-files/images/hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -483,7 +483,7 @@
 }
 
 .card-container .card .rectangle {
-  background: url(/index-files/images/seedlings.jpeg);
+  background: url(//index-files/images/seedlings.jpeg);
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
@@ -492,7 +492,7 @@
 }
 
 .rectangle-two {
-  background: url(/index-files/images/equipment.jpeg);
+  background: url(//index-files/images/equipment.jpeg);
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
@@ -501,7 +501,7 @@
 }
 
 .rectangle-three {
-  background: url(/index-files/images/collabo.jpeg);
+  background: url(//index-files/images/collabo.jpeg);
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
