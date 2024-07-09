@@ -272,6 +272,7 @@
 }
 
 .hero .hero-container {
+  width: 100%;
   position: relative;
   height: 657px;
   background: url(../index-files/images/hero.png);
