@@ -275,7 +275,7 @@
   width: 100%;
   position: relative;
   height: 657px;
-  background: url(../index-files/images/hero.png);
+  background: url(/index-files/images/hero.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
