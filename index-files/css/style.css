@@ -48,6 +48,7 @@
 
 
 .logo-header{
+  font-family: comfortaa;
   background-image: linear-gradient(90deg, #0a960a 0%, #0a960a 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -290,6 +291,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  position: relative;
   /* width: 100%;
   position: relative;
   height: 657px;
@@ -500,8 +502,30 @@
   border-radius: 0px 0px 30px 8px;
 }
 
-.card-container .card .rectangle {
-  background: url(./images/seedlings.jpeg);
+/* .card-container .card .rectangle {
+  width: 384px;
+  height: 300px;
+  border-radius: 30px 8px 0px 0px;
+  background-size: cover;
+  background-position: center;
+} */
+.card .rectangle img {
+width: 384px;
+  height: 300px;
+  border-radius: 30px 8px 0px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .rectangle-two {
+  width: 384px;
+  height: 300px;
+  border-radius: 30px 8px 0px 0px;
+  background-size: cover;
+  background-position: center;
+} */
+
+.rectangle-two img{
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
@@ -509,17 +533,15 @@
   background-position: center;
 }
 
-.rectangle-two {
-  background: url(./images/equipment.jpeg);
+/* .rectangle-three {
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
   background-size: cover;
   background-position: center;
-}
+} */
 
-.rectangle-three {
-  background: url(./images/collabo.jpeg);
+.rectangle-three img {
   width: 384px;
   height: 300px;
   border-radius: 30px 8px 0px 0px;
