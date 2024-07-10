@@ -16,83 +16,177 @@ html {
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
-  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  /* height: 100vh; */
 }
 
-.signin-container {
+.container {
   background-color: white;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  padding: 2rem ;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 800px;
+  width: 90%;
 }
 
-.logo {
+header {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  justify-content: flex-start;
+  text-align: center;
+  margin-bottom:3rem ;
+  align-items: start;
+  width:461.24px;
+  /* height: 169.5px; */
+  gap: 10px;
 }
 
-.logo img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
+.logo-text{
+  font-family: Comfortaa;
+  color: #1B751B;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* padding: 0px 0 ; */
 
-.logo h1 {
-  font-size: 24px;
-  color: #0a960a;
-  margin: 0;
+}
+.logo-text h1{
+  font-family: Comfortaa;
+  color: #1B751B;
+  font-size: 50px;
+  line-height: 40px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  
+} 
+
+.logo-text p{
+  font-family: Comfortaa;
+  color: #1B751B;
+  font-size: 15px;
+  
+
 }
 
 h2 {
-  color: #333;
-  margin-bottom: 20px;
+  text-align: center;
+  color: #1B751B;
+  font-family: inter;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 30px 0 ;
+  
 }
 
-.signin-form {
+.logo {
+  width: 60px;
+  height: auto;
+  
+}
+
+.custom-buttons{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
 }
-
-input {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-button {
-  background-color: #03EA03;
+.btn {
+  background-color: #108210;
+  margin-bottom: 20px;
   color: white;
+  width:400px;
+  height: 68px;
   padding: 10px;
+  margin: 10px 0;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  font-size: 16px;
+  
 }
 
-button:hover {
-  background-color: #059805;
+.btn:hover {
+  background-color: #066306;
 }
 
-p {
+.btn-google { background-color: #108210; 
+  color: white; 
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  width:400px;
+  height: 68px
+  
+}
+.btn-microsoft { 
+  background-color: #108210;
+  color: white; 
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #1B751B;
+  width:400px;
+  height: 68px
+}
+.btn-apple { 
+  background-color: #108210; color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #1B751B;
+  width:400px;
+  height: 68px
+ }
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  
+}
+input[type="email"], input[type="password"] {
+  width:400px;
+  height:68px ;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forgot-password {
+  text-align: right;
+  margin: 10px 0;
+}
+.signup-link {
+  text-align: center;
   margin-top: 20px;
-  color: #666;
+ 
 }
 
-a {
-  color: #03EA03;
+a{
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #4CAF50;
 }

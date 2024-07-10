@@ -275,6 +275,19 @@ body {
 height: 373px;
 top: 78px;
 }
+
+.banner-section h1{
+  width: 590px;
+height: 62px;
+font-family: Inter;
+padding: 20px 80px;
+font-size: 52px;
+font-weight: 700;
+line-height: 62.4px;
+letter-spacing: -0.025em;
+text-align: left;
+color: #F8FFFE;
+}
 /* ===============GET EQUIPMENT STYLE================ */
 
 .get-equipment{
@@ -415,18 +428,18 @@ font-size: 48px;
 font-weight: 700;
 line-height: 58.09px;
 text-align: left;
-margin-bottom:100px;
+margin-bottom:70px;
 
 }
 
 .text-last p{
   font-family: Inter;
-font-size: 28px;
+font-size: 38px;
 font-weight: 600;
 line-height: 33.89px;
 text-align: left;
 margin-bottom:100px;
-width: 558px;
+width: 500px;
 /* height: 310px; */
 
 
@@ -442,11 +455,11 @@ width: 558px;
 
 
 .last2{
-  width: 430px;
+  width: 100%;
   height: 309px;
   position: relative;
   top: 28px;
-  left: -95px;
+  left: -60px;
   gap: 0px;
   opacity: 0px;
   
