@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 localStorage.setItem('formSubmitted', 'true');
 
                 // Redirect to the popup page
-                window.location.href = 'popup.html'; // Adjust this path as needed
+                window.location.href = 'msg-popup.html'; // Adjust this path as needed
             }, 1000);
         });
     } else {

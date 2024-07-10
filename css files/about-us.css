@@ -631,6 +631,17 @@ hr{
   letter-spacing: -0.01em;
 }
 
+.picture-card .track{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #108210;
+  font-size: 12px;
+  
+  
+}
+
 
 /*  =========FOOTER SECTION STYLES========== */
 
