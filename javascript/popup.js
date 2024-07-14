@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
           popup.style.display = 'none';
 
           // Redirect to the home page or wherever you want
-          window.location.href = '/index.html'; // Adjust this path as needed
+          window.location.href = '/cultiv8-web-project/index.html'; // Adjust this path as needed
       });
   } else {
       console.error('Close button not found');
