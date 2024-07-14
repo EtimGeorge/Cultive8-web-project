@@ -63,10 +63,13 @@
   justify-content: flex-end;
   gap: 30px;
   
-  
-  
- 
-  
+}
+
+.nav-links li.active a {
+  color: #03EA03;
+  padding: 0 10px ;
+  border-bottom:2px solid #03EA03;
+  /* Add any other styles you want for the active state */
 }
 
 .nav-links{
@@ -87,7 +90,7 @@
   font-weight: 500;
 }
 
-.active a:hover {
+.hova a:hover {
   color: #03EA03;
   padding: 0 10px ;
   border-bottom:2px solid #03EA03;
