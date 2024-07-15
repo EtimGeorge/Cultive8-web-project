@@ -1,7 +1,60 @@
 /* Breakpoint 1: Small Screens (320px - 480px) */
 @media (min-width: 320px) and (max-width: 480px) {
+
+   /* =============HEADER AND NAVIGATION SECTION=========== */
+
+ .nav-bar {
+  padding: 25px 40px;
+}
+.logo-header {
+  font-size: 36px;
+}
+.nav-links {
+  display: none;
+}
+.nav-links a {
+  font-size: 18px;
+}
+.btn-sign-in {
+  width: 85px;
+  padding: 5px;
+}
+
+/* ========= HAMBURGER MENU FOR MOBILE ============ */
+
+.hamburger-menu {
+  display: block;
+}
+
+ .hamburger-menu{
+  top: 30px;
+}
+
+/* =======MOBILE MENU=========== */
+
+.menu-option {
+  display: none;
+}
+
+
+.show-mobile-menu {
+  right: 0;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 80px;
+  width: 90%;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin-left: 0;
+}
   /* Layout changes */
-  .nav-bar {
+  /* .nav-bar {
     padding: 20px 10px;
   }
 
@@ -15,7 +68,7 @@
   .btn-sign-in {
     width: 80px;
     padding: 4px;
-  }
+  } */
   .project-banner-content {
     padding: 60px;
     margin: 0 auto;

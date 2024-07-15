@@ -75,16 +75,20 @@ justify-content: center;
     height: fit-content;
     flex-direction: column;
     padding: 20px;
+    grid-auto-rows: auto;
     
   }
 
   .improved-seed .carrot{
-    /* width: 315px; */
-    height: 190px;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* This creates square cells. Adjust as needed */
+    /* height: 190px; */
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
   }
+
+  
 
   .image-last {
     width: 100%;
@@ -95,17 +99,41 @@ justify-content: center;
 
   .text, .text-last {
     width: 100%;
+    
     /* margin-top: 30px; */
   }
 
-  .text h1, .text-last h1 {
+  .text h1, .text-last p {
     font-size: 36px;
     line-height: 44px;
+   
+  }
+
+  .text h1{
+    box-shadow: 0 5px 10px #00000053;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .text-last h1{
+    font-size: 36px;
+    line-height: 44px;
+    /* margin-bottom: 10px; */
+    box-shadow: 0 5px 10px #00000053;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
   }
 
   .text p, .text-last p {
+    width: 100%;
     font-size: 22px;
     line-height: 28px;
+  }
+
+  .text-last p{
+    margin: 0;
   }
 
   .image, .image-last {

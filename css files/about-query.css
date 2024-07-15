@@ -116,7 +116,7 @@
   .team-gallery {
     grid-template-columns: repeat(4, 1fr);
   }
-
+ 
   
   .featured-video-tiles img{
     background-size: cover;
