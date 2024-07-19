@@ -407,10 +407,10 @@
 @media (min-width: 1025px) and (max-width: 1200px) {
   /* Layout changes */
   .nav-bar {
-    padding: 35px 60px;
+    padding: 30px 20px;
   }
   .logo-header {
-    font-size: 44px;
+    font-size: 40px;
   }
   .nav-links {
     gap: 35px;
@@ -472,10 +472,10 @@
 @media (min-width: 1201px) {
   /* Layout changes */
   .nav-bar {
-    padding: 40px 70px;
+    padding: 30px 20px;
   }
   .logo-header {
-    font-size: 48px;
+    font-size: 40px;
   }
   .nav-links {
     gap: 40px;

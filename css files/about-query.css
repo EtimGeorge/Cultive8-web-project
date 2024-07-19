@@ -528,8 +528,12 @@
       line-height-step: 100px;
     }
     
-    .testimonial-content-2 .who, h3{
+    .testimonial-content-2 .who {
       text-align: end;
+    }
+
+    .meetTeam-header h3{
+      text-align: center;
     }
     
     .testimonial-content img{

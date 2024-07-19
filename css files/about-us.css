@@ -38,7 +38,7 @@ body {
 .nav-bar{
   background-color: #fff;
   /* max-width: 1440px; */
-  padding: 30px 20px ;
+  padding: 30px 112px ;
   display: flex;
   justify-content: space-between;
   
@@ -55,12 +55,12 @@ body {
 
 
 .logo-header{
-  font-family: Comfortaa;
+  font-family: comfortaa;
   background-image: linear-gradient(90deg, #0a960a 0%, #0a960a 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 700;
   /* text-fill-color: transparent; */
 }
 
@@ -69,6 +69,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   gap: 30px;
+  margin-left: auto; /* This pushes the menu options to the right */
   
 }
 

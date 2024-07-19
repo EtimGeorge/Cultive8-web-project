@@ -34,7 +34,7 @@ body {
 .nav-bar{
   background-color: #fff;
   /* max-width: 1440px; */
-  padding: 30px 20px ;
+  padding: 30px 112px ;
   display: flex;
   justify-content: space-between;
   
@@ -51,12 +51,12 @@ body {
 
 
 .logo-header{
-  font-family: Comfortaa;
+  font-family: comfortaa;
   background-image: linear-gradient(90deg, #0a960a 0%, #0a960a 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 700;
   /* text-fill-color: transparent; */
 }
 
@@ -65,6 +65,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   gap: 30px;
+  margin-left: auto; /* This pushes the menu options to the right */
   
 }
 
@@ -287,11 +288,12 @@ body {
   width: 590px;
 height: 62px;
 font-family: Inter;
-padding: 20px 80px;
+padding: 20px 112px;
 font-size: 52px;
 font-weight: 700;
 line-height: 62.4px;
 letter-spacing: -0.025em;
+text-wrap: nowrap;
 text-align: left;
 color: #F8FFFE;
 }
@@ -446,7 +448,7 @@ margin-bottom:70px;
 
 .text-last p{
   font-family: Inter;
-font-size: 38px;
+font-size: 28px;
 font-weight: 600;
 line-height: 33.89px;
 text-align: left;
@@ -474,6 +476,7 @@ width: 500px;
   left: -60px;
   gap: 0px;
   opacity: 0px;
+  border:5.5px solid #1B751B;
   
 }
 
